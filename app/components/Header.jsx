@@ -9,7 +9,7 @@ const ovo = Ovo({
 
 export default function Header() {
     return (
-        <div className='w-11/12 max-w-3xl mx-auto text-center h-screen flex flex-col items-center justify-center gap-4'>
+        <div className='w-11/12 max-w-3xl mx-auto text-center pt-10 flex flex-col items-center justify-center gap-4'>
             <div className='mt-16'>
                 <Image src={assets.profile_img} alt='Profile' width={150} height={150} className='rounded-full' />
             </div>
