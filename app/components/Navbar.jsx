@@ -22,7 +22,7 @@ export default function Navbar() {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (scrollY > 50) {
+            if (scrollY > 200) {
                 setIsScroll(true)
             } else {
                 setIsScroll(false)
@@ -44,7 +44,7 @@ export default function Navbar() {
                         <span className='text-4xl text-red-600'>.</span>
                     </div>
                 </a>
-                <ul className={`hidden md:flex  items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? '':'bg-white shadow-sm bg-opacity-50'} `}>
+                <ul className={`hidden md:flex  items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? '' : 'bg-white shadow-sm bg-opacity-50'} `}>
                     <li><a className={ovo.className} href="#top">Home</a></li>
                     <li><a className={ovo.className} href="#about">About Me</a></li>
                     <li><a className={ovo.className} href="#services">Services</a></li>

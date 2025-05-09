@@ -25,7 +25,7 @@ export default function About() {
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl p-6 cursor-pointer">
                         {infoList.map(({ icon, iconDark, title, description }, idx) => (
                             <li key={idx} className="border-2 border-gray-400 rounded-xl px-4 py-5 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-2xl hover:shadow-black transition-all">
-                                 {/* style={{ boxShadow: theme === 'dark' ? '4px 4px 0 #fff' : '4px 4px 0 #000' }} */}
+                                {/* style={{ boxShadow: theme === 'dark' ? '4px 4px 0 #fff' : '4px 4px 0 #000' }} */}
                                 <Image src={icon} alt={title} width={20} height={20} className='w-7 mt-3' />
                                 <h3 className="my-4 font-semibold text-gray-700">{title}</h3>
                                 <p className="text-gray-600 text-sm">{description}</p>
@@ -34,7 +34,7 @@ export default function About() {
                     </ul>
                     <h4 className={`my-6 text-gray-700 ${ovo.className}`}>Tools I Use</h4>
                     <ul className="flex items-center gap-3 sm:gap-5">
-                        {toolsData.map((tool, idx)=>(
+                        {toolsData.map((tool, idx) => (
                             <li key={idx} className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500">
                                 <Image src={tool} alt='Tool' width={20} height={20} className='w-5 sm:w-7' />
                             </li>
