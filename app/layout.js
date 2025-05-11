@@ -1,5 +1,6 @@
 import { Poppins, Outfit, Ovo } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "next-themes";
 
 const poppins = Poppins({
   weight: ["400", "600", "700"],
@@ -23,11 +24,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
         className={`${poppins.className} ${outfit.className} ${ovo.className} antialiased leading-6 overflow-x-hidden`}
       >
-        {children}
+        <ThemeProvider attribute={"class"} enableSystem defaultTheme="system">
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

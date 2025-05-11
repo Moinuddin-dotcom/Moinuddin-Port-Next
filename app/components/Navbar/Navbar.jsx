@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import { Ovo } from "next/font/google";
 import { useEffect, useRef, useState } from 'react';
+import DarkLight from './components/DarkLight';
 
 const ovo = Ovo({
     weight: ["400"],
@@ -34,7 +35,7 @@ export default function Navbar() {
     return (
         <>
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-                <Image src={assets.header_bg_color} alt='Bg' className='w-full' />
+                {/* <Image src={assets.header_bg_color} alt='Bg' className='w-full' /> */}
             </div>
             <nav className={`flex justify-between items-center w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 z-50 ${isScroll ? 'bg-white/20 opacity-80 backdrop-blur-lg shadow-sm' : ''}`}>
                 <a href="#top">
@@ -52,9 +53,10 @@ export default function Navbar() {
                     <li><a className={ovo.className} href="#contact">Contact Me</a></li>
                 </ul>
                 <div className='flex items-center gap-4'>
-                    <button>
-                        <Image src={assets.moon_icon} alt='moon icon' width={20} height={20} className='cursor-pointer' />
-                    </button>
+                    {/* <button> */}
+                        {/* <Image src={assets.moon_icon} alt='moon icon' width={20} height={20} className='cursor-pointer' /> */}
+                        <DarkLight />
+                    {/* </button> */}
 
 
                     <a href="#contact" className='hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4'>
