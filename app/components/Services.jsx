@@ -17,10 +17,10 @@ export default function Services() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 my-10">
                 {serviceData.map(({ icon, title, description, link }, idx) => (
-                    <div key={idx} className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-2xl hover:shadow-black transition-all hover:bg-[#fcf4ff] hover:-translate-y-2 duration-500">
+                    <div key={idx} className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-2xl hover:shadow-black dark:hover:shadow-fuchsia-200 transition-all hover:bg-[#fcf4ff] dark:hover:bg-[#2a004a] hover:-translate-y-2 duration-500">
                         <Image src={icon} alt="Icon" width={20} height={20} className='w-7 mt-3' />
-                        <h3 className="text-lg my-4 text-gray-700">{title}</h3>
-                        <p className="text-gray-600 text-sm leading-5">{description}</p>
+                        <h3 className="text-lg my-4 text-gray-700 dark:text-gray-300">{title}</h3>
+                        <p className="text-gray-600 dark:text-gray-300 text-sm leading-5">{description}</p>
                         <a href={link} className="flex items-center gap-2 text-sm mt-5 ">Read More <Image src={assets.right_arrow} alt="Right Arrow" width={10} height={5} className='w-4 mt-1' /></a>
                     </div>
                 ))}

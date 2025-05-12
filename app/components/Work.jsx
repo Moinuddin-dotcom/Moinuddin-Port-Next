@@ -9,7 +9,7 @@ const ovo = Ovo({
 
 export default function Work() {
     return (
-        <div id="work" className={`w-full px-[12%] py-20 scroll-mt-20`}>
+        <div id="work" className={`w-full px-[12%] py-20 scroll-mt-20 `}>
             <h4 className={`text-center mb-2 text-lg ${ovo.className}`}>My Portfolio</h4>
             <h2 className={`text-center text-5xl ${ovo.className}`}>My latest work</h2>
 
@@ -20,7 +20,7 @@ export default function Work() {
                     <div key={idx} style={{ backgroundImage: `url(${project.bgImage})` }} className="w-full h-60 bg-cover bg-center bg-no-repeat rounded-lg relative cursor-pointer group">
                         <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-6 -translate-1 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                             <div>
-                                <h2 className="font-semibold">{project.title}</h2>
+                                <h2 className="font-semibold text-black">{project.title}</h2>
                                 <p className="text-sm text-gray-700">{project.description}</p>
                             </div>
                             <div className="border rounded-full border-black w-9 h-9 aspect-square p-1 flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
@@ -30,7 +30,7 @@ export default function Work() {
                     </div>
                 ))}
             </div>
-            <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700 border-2 border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#fcf4ff] duration-500">
+            <a href="" className="w-max flex items-center justify-center gap-2 text-gray-700 border-2 border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-[#2a004a]">
                 Show more <Image src={assets.right_arrow_bold} alt="right arrow" width={10} height={5} className='w-4' />
             </a>
         </div>

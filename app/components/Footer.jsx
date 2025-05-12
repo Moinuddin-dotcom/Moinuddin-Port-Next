@@ -1,5 +1,6 @@
-import { assets } from '@/assets/assets'
-import Image from 'next/image'
+// import { assets } from '@/assets/assets'
+import { Mail } from 'lucide-react'
+// import Image from 'next/image'
 import React from 'react'
 
 export default function Footer() {
@@ -10,7 +11,8 @@ export default function Footer() {
                 <span className='text-4xl text-red-600'>.</span>
             </div>
             <div className="email flex justify-center items-center gap-2 ">
-                <Image src={assets.mail_icon} alt='mail icon' width={20} height={20} className='cursor-pointer' />moinchy7@gmail.com
+                <Mail />
+                moinchy7@gmail.com
             </div>
 
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
@@ -26,3 +28,5 @@ export default function Footer() {
         </div>
     )
 }
+
+{/* <Image src={assets.mail_icon} alt='mail icon' width={20} height={20} className='cursor-pointer' /> */ }

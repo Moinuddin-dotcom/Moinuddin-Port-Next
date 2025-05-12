@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${poppins.className} ${outfit.className} ${ovo.className} antialiased leading-6 overflow-x-hidden`}
+        className={`${poppins.className} ${outfit.className} ${ovo.className} dark:bg-[#1c0032] antialiased leading-6 overflow-x-hidden`}
       >
         <ThemeProvider attribute={"class"} enableSystem defaultTheme="system">
           {children}

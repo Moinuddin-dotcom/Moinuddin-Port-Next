@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { ArrowRight } from "lucide-react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import { useState } from "react";
@@ -77,7 +78,8 @@ export default function Email() {
                             </div>
                         </div>
                         <CardFooter className="p-4 border-t border-border [.border-t]:pt-4">
-                            <Button type='submit' className="w-full cursor-pointer flex justify-center items-center group">Submit now <Image src={assets.right_arrow_white} alt="right arrow" width={20} height={20} className="group-hover:translate-x-2 transition duration-500" /></Button>
+                            <Button type='submit' className="w-full cursor-pointer flex justify-center items-center group">Submit now <ArrowRight className="group-hover:translate-x-2 transition duration-500" />
+                            </Button>
                         </CardFooter>
                         <p className="mt-5">{result}</p>
                     </form>
@@ -87,3 +89,5 @@ export default function Email() {
         </Card>
     )
 }
+
+{/* <Image src={assets.right_arrow_white} alt="right arrow" width={20} height={20} className="group-hover:translate-x-2 transition duration-500" /> */ }
