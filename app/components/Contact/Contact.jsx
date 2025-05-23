@@ -11,7 +11,7 @@ const ovo = Ovo({
 
 export default function Contact() {
     return (
-        <div id="contact" className={"w-full px-[12%] py-20 scroll-mt-20 bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none"}>
+        <div id="contact" className={"w-full px-[12%] py-0 scroll-mt-20 bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] dark:bg-none"}>
             {/* bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] */}
             {/* bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto] */}
             <h4 className={`text-center mb-2 text-lg ${ovo.className}`}>Connect with me</h4>
