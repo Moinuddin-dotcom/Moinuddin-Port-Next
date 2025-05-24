@@ -38,7 +38,7 @@ export default function Navbar() {
 
     return (
         <>
-            
+
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
                 {/* <Image src={assets.header_bg_color} alt='Bg' className='w-full' /> */}
             </div>
@@ -101,7 +101,8 @@ export default function Navbar() {
 
                     <li><a onClick={closeMenu} className={ovo.className} href="#top">Home</a></li>
                     <li><a onClick={closeMenu} className={ovo.className} href="#about">About Me</a></li>
-                    <li><a onClick={closeMenu} className={ovo.className} href="#services">Services</a></li>
+                    {/* <li><a onClick={closeMenu} className={ovo.className} href="#services">Services</a></li> */}
+                    <li><a onClick={closeMenu} className={ovo.className} href="#skills">Skills</a></li>
                     <li><a onClick={closeMenu} className={ovo.className} href="#work">My Work</a></li>
                     <li><a onClick={closeMenu} className={ovo.className} href="#contact">Contact Me</a></li>
                 </ul>

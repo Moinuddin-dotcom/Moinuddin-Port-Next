@@ -68,12 +68,12 @@ export default function About() {
                     <motion.h4
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: 1.3 }}
+                        transition={{ duration: 0.5, delay: 0.1 }}
                         className={`mb-4 text-gray-700 dark:text-gray-200 ${ovo.className}`}>Tools I Use</motion.h4>
                     <motion.ul
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 1.5 }}
+                        transition={{ duration: 0.6, delay: 0.5 }}
                         className="flex items-center gap-3 sm:gap-5">
                         {toolsData.map((tool, idx) => (
                             <motion.li

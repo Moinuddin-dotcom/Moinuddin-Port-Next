@@ -39,6 +39,27 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import javascript from './JavaScript.webp';
 import typescript from './typescript.png';
+import aceternity from './AceternityUI.png';
+import bootstrap from './Bootstrap.png';
+import chakra from './ChakraUI.png';
+import material from './MaterialUI.png';
+import motion from './Motion.png';
+import nodeJs from './NodeJs.png';
+import tansTackQuery from './TansTackQuery.png';
+import daisy from './DaisyUi.jpeg';
+import magic from './MagicUI.jpeg';
+import nextJs from './NextJs.jpeg';
+import tailwindCSS from './TailwindCSS.jpeg';
+import nextAuth from './NextAuth.jpeg';
+import mySQL from './MySQL.png';
+import express from './ExpressJS.webp';
+import reactJS from './ReactJS.webp';
+import shadcn from './ShadcnUI.webp';
+import gitHub from './GitHub.webp';
+import flowbiteReact from './FlowbiteReact.png';
+import replit from './Replit.png';
+import vercel from './Vercel.png';
+import netlify from './Netlify.png';
 
 export const assets = {
     user_image,
@@ -81,7 +102,28 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     javascript,
-    typescript
+    typescript,
+    aceternity,
+    bootstrap,
+    chakra,
+    material,
+    motion,
+    nodeJs,
+    tansTackQuery,
+    daisy,
+    magic,
+    nextJs,
+    tailwindCSS,
+    express,
+    reactJS,
+    shadcn,
+    flowbiteReact,
+    mySQL,
+    nextAuth,
+    gitHub,
+    replit,
+    vercel,
+    netlify
 };
 
 export const workData = [
@@ -120,11 +162,47 @@ export const infoList = [
     // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
-export const programmeingSkills =[
-    { name: 'JavaScript', level: '80%', icon: assets.javascript },
-    { name: 'TypeScript', level: '70%', icon: assets.typescript },
-]
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
+
+export const programmeingSkills = [
+    { name: 'JavaScript', level: '80%', icon: assets.javascript },
+    { name: 'TypeScript', level: '70%', icon: assets.typescript },
+]
+
+export const libiriesFrameworks = [
+    { librariesName: 'Next.js', level: '80%', librariesIcon: assets.nextJs },
+    { librariesName: 'React.js', level: '70%', librariesIcon: assets.reactJS },
+    { librariesName: 'Next-Auth', level: '70%', librariesIcon: assets.nextAuth },
+    { librariesName: 'Node.js', level: '70%', librariesIcon: assets.nodeJs },
+    { librariesName: 'Express.js', level: '70%', librariesIcon: assets.express },
+    { librariesName: 'TansTack Query', level: '70%', librariesIcon: assets.tansTackQuery },
+    { librariesName: 'Tailwind CSS', level: '70%', librariesIcon: assets.tailwindCSS },
+    { librariesName: 'Motion', level: '70%', librariesIcon: assets.motion },
+    { librariesName: 'Bootstrap', level: '70%', librariesIcon: assets.bootstrap },
+    { librariesName: 'Shadcn UI', level: '70%', librariesIcon: assets.shadcn },
+    { librariesName: 'Aceternity UI', level: '70%', librariesIcon: assets.aceternity },
+    { librariesName: 'Magic UI', level: '70%', librariesIcon: assets.magic },
+    { librariesName: 'Daisy UI', level: '70%', librariesIcon: assets.daisy },
+    { librariesName: 'Material UI', level: '70%', librariesIcon: assets.material },
+    { librariesName: 'Chakra UI', level: '70%', librariesIcon: assets.chakra },
+    { librariesName: 'Flowbite React', level: '70%', librariesIcon: assets.flowbiteReact }
+]
+
+export const database = [
+    { dbname: 'MySQL', level: '70%', dbicon: assets.mySQL },
+    { dbname: 'MongoDB', level: '70%', dbicon: assets.mongodb },
+]
+export const toolsPlatforms = [
+    { toolsName: 'GitHub', toolsIcon: assets.gitHub },
+    { toolsName: 'Git', toolsIcon: assets.git },
+    { toolsName: 'VScode', toolsIcon: assets.vscode },
+    { toolsName: 'Replit', toolsIcon: assets.replit },
+    { toolsName: 'Firebase', toolsIcon: assets.firebase },
+    { toolsName: 'Vercel', toolsIcon: assets.vercel },
+    { toolsName: 'Netlify', toolsIcon: assets.netlify },
+    { toolsName: 'Figma', toolsIcon: assets.figma }
+]
