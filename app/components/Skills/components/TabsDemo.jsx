@@ -2,7 +2,6 @@
 
 import { database, libiriesFrameworks, programmeingSkills, toolsPlatforms } from "@/assets/assets";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
-// import { Tabs } from "../ui/tabs";
 import { Tabs } from "@/components/ui/tabs";
 import Image from "next/image";
 
