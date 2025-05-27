@@ -66,7 +66,7 @@ export default function Email() {
                         <div className="grid gap-4">
                             <div className="grid gap-2">
                                 <Label htmlFor="name">Enter your name</Label>
-                                <Input id="name" type="text" {...register("name")} placeholder="Parsian Khan" />
+                                <Input id="name" type="text" {...register("name")} placeholder="Md Moinuddin Chowdhury" />
                             </div>
                             <div className="grid gap-2">
                                 <Label htmlFor="email">Enter your email</Label>
