@@ -35,10 +35,10 @@ export default function MyProjects() {
             <ProjectsCurosel />
             {/* <Link href={'/HeroParalaxWork'}>
                 <motion.button
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                className="w-max cursor-pointer flex items-center justify-center gap-2 text-gray-700 border-2 border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-[#2a004a]">
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.6, delay: 0.1 }}
+                    className="w-max cursor-pointer flex items-center justify-center gap-2 text-gray-700 border-2 border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-[#2a004a]">
                     Show more <MoveRight />
                 </motion.button>
             </Link> */}

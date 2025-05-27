@@ -7,7 +7,7 @@ import MyProjects from "./components/Projects/MyProjects";
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 // import Services from "./components/Services";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 
 
 export default function Home() {
